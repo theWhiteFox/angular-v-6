@@ -1,2 +1,8 @@
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Click me!</button>
+<!-- string interpolation output -->
+<!-- <p>{{ allowNewServer }}</p> -->
+<!-- property binding  -->
+<!-- <p [innerText]="allowNewServer"></p> -->
+<p>{{ serverCreationStatus }}</p>
 <app-server></app-server>
 <app-server></app-server>
