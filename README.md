@@ -29,3 +29,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## TypeScript compiler
 
 npm install -g typescript
+
+## Learning links
+
+[angular.io guide forms](https://angular.io/guide/forms)
+
+Four ways of data binding
+
+- String interpolation: one way data binding output the data {{...}}
+- event binding: listen to the click
+  - [angular.io guide user input](https://angular.io/guide/user-input)
+- property binding: enable button
+  - [https://angular.io/guide/template-syntax](https://angular.io/guide/template-syntax)
+- two way binding: combination of both Property Binding and Event Binding
+  - [medium angular custom two way data binding](https://medium.com/@preethi.s/angular-custom-two-way-data-binding-3e618309d6c7)
